@@ -16,8 +16,7 @@ class NerdIF {
 
   atributos() {
     if(this.estudante != "" & this.cosplay != "" & this.nota_cosplay != ""){
-      return 
-        this.estudante, this.cosplay, this.nota_cosplay;
+      return  this.estudante, this.cosplay, this.nota_cosplay;
       }
       else if (this.estudante == ""){
         throw new Error("Ocorreu um erro! O campo estudante é obrigatório.")
